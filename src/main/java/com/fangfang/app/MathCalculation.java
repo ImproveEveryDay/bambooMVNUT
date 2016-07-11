@@ -11,5 +11,11 @@ public class MathCalculation {
 	public float divide(int a, int b){
 		return (float)a / b;
 	}
-
+	
+	public String testBranch(boolean condition){
+		if(condition){
+			return "correct";
+		}
+		return "false";
+	}
 }

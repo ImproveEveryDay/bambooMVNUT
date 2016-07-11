@@ -37,6 +37,13 @@ public class MathCalculationTest {
 	 Assert.assertEquals(actual, 6);
   }
   
+  
+  @Test
+  public void branch(){
+	  String actual = mathTest.testBranch(true);
+	  Assert.assertEquals(actual, "correct");
+  }
+  
   @AfterClass
   public void afterClass(){
 	  System.out.println("after class!!");
